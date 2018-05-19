@@ -4,13 +4,16 @@
     <tag>Latest</tag>
     <files>
       <applications.properties>
-         <secret>rxbcao34ldu2jszaqs09p0x3z1</secret>
-         <nzbn.host></nzbn.host>
-         <nzbn.token></nzbn.token>
-         <nodejs.proxy>https://192.168.1.1:5000/api/</nodejs.proxy>   
+         <properties>
+           <secret>rxbcao34ldu2jszaqs09p0x3z1</secret>
+           <nzbn.host></nzbn.host>
+           <nzbn.token></nzbn.token>
+           <nodejs.proxy>https://192.168.1.1:5000/api/</nodejs.proxy>
+        </properties>
       </applications.properties>
-      <config.ini>         
-      </config.ini>      
+      <config.ini>
+        <path>/home/engcpp/</path>
+      </config.ini>
     </files>
   </php-unit-demo>
 </projects>
